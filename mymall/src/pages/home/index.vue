@@ -20,7 +20,7 @@
           </div>
           <i class="iconfont icon-msg" slot="right"></i>
         </nav-bar>
-        <!-- swiper 轮播图 -->
+        <!-- swiper 轮播图的 -->
         <swiper :options="swiperOption">
           <swiper-slide v-for="(val,key) in sliders" :key="key">
             <a :href="val.imgurl">
